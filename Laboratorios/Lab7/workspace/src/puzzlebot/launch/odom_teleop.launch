@@ -1,0 +1,6 @@
+<launch>
+<arg name="node_start_delay" default="5.0"/>
+    <include file="$(find puzzlebot_gazebo)/launch/puzzlebot_gazebo.launch"/>
+    <node name="odometry" pkg="puzzlebot" type="odometry.py"/>
+    <node name="record_odom_bag" pkg="rosbag" type="record" args="/odometry_publisher"/>
+</launch>

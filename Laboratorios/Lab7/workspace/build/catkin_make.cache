@@ -1,0 +1,2 @@
+pure_pursuit:puzzlebot:puzzlebot_control:puzzlebot_gazebo:puzzlebot_world
+-DCATKIN_DEVEL_PREFIX=/home/ponchito/Documents/catkin_ws/robot_rviz/devel -DCMAKE_INSTALL_PREFIX=/home/ponchito/Documents/catkin_ws/robot_rviz/install -G Unix Makefiles

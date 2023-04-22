@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ponchito/Documents/catkin_ws/robot_rviz/install/setup.sh
