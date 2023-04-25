@@ -1,0 +1,3 @@
+v1: codigo original sin giros a la derecha
+v2: lookahead distance = 0.5
+v3: lookahead distance = 0.55

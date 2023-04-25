@@ -2,5 +2,5 @@
 <launch>
     <arg name="node_start_delay" default="6.0"/> 
     <include file="$(find puzzlebot)/launch/odom_teleop.launch"/>
-    <node name="pure_pursuit_node" pkg="pure_pursuit" type="pure_pursuitv3.py" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/> 
+    <node name="pure_pursuit_node" pkg="pure_pursuit" type="pure_pursuit.py" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/> 
 </launch>
