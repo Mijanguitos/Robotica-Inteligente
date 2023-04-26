@@ -14,7 +14,7 @@ class PurePursuit:
         self.pose.y = 0
         self.pose.theta = 0
 
-        self.lookahead = 0.5
+        self.lookahead = 0.5 #0.55
         self.linear_velocity = 0.1
         self.angular_velocity = 0.0
 
@@ -72,7 +72,7 @@ class PurePursuit:
         ry = next_x*np.sin(alpha) + next_y*np.cos(alpha)
         dx = (self.pose.x - rx)*sign 
         dy = ry - self.pose.y 
-        distance = (dx + dy) 
+        distance = (dx + dy)
 
         k = 2*distance/(self.lookahead**2)
 
