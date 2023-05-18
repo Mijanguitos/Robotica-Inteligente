@@ -1,0 +1,13 @@
+<launch>
+	
+	<node pkg="turtlesim" type="turtlesim_node" name="el_turlesim" />
+
+	<node pkg="rosservice" type="rosservice" name="kill_turtle_1" 
+		  args="call /kill 'turtle1'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle1" 
+		  args="call /spawn 1 1 0 'turtle1'"/>	
+	
+	<node pkg="rosmove" type="rosmove.py" name="el_movimiento" />
+
+</launch>

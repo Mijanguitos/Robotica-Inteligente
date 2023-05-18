@@ -1,0 +1,8 @@
+prefix=/home/ponchito/Documents/turtle/install
+
+Name: dummy
+Description: Description of dummy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

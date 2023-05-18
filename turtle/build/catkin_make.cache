@@ -1,0 +1,2 @@
+dummy:rosmove
+-DCATKIN_DEVEL_PREFIX=/home/ponchito/Documents/turtle/devel -DCMAKE_INSTALL_PREFIX=/home/ponchito/Documents/turtle/install -G Unix Makefiles
